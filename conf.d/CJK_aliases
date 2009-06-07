@@ -1,0 +1,70 @@
+<fontconfig>
+<!-- Aliases for Korean Windows fonts -->
+	<alias>
+		<family>AR MingtiM KSC</family>
+		<family>UnBatang</family>
+		<family>Baekmuk Batang</family>
+		<accept><family>Batang</family></accept>
+		<accept><family>BatangChe</family></accept>
+	</alias>
+	<alias>
+		<family>UnDotum</family>
+		<accept><family>Dotum</family></accept>
+		<accept><family>DotumChe</family></accept>
+	</alias>
+	<alias>
+		<family>Guseul</family>
+		<accept><family>Gulim</family></accept>
+		<accept><family>GulimChe</family></accept>
+	</alias>
+<!-- Aliases for Japanese Windows fonts -->
+	<alias>
+		<family>IPAMonaPGothic</family>
+		<family>IPAPGothic</family>
+		<family>Sazanami Gothic</family>
+		<family>Kochi Gothic</family>
+		<accept><family>MS Gothic</family></accept>
+		<accept><family>MS UIGothic</family></accept>
+	</alias>
+	<alias>
+		<family>AR MinchoL JIS</family>
+		<family>IPAMonaPMincho</family>
+		<family>IPAPMincho</family>
+		<family>Sazanami Mincho</family>
+		<family>Kochi Mincho</family>
+		<accept><family>MS Mincho</family></accept>
+		<accept><family>MS PMincho</family></accept>
+	</alias>
+<!-- Aliases for Simplified Chinese Windows fonts -->
+	<alias>
+		<family>SimSun</family>
+		<family>NSimSun</family>
+		<family>SimSun-18030</family>
+		<family>NSimSun-18030</family>
+		<family>宋体</family>
+		<family>AR MingtiM GB</family>
+		<accept><family>AR PL UMing CN</family></accept>
+		<accept><family>AR PL ShanHeiSun Uni</family></accept>
+	</alias>
+<!-- Aliases for Traditional Chinese Windows fonts -->
+	<alias>
+		<family>MingLiU</family>
+		<family>細明體</family>
+		<family>PMingLiU</family>
+		<family>新細明體</family>
+		<family>AR MingtiM BIG-5</family>
+		<accept><family>AR PL UMing TW</family></accept>
+		<accept><family>AR PL ShanHeiSun Uni</family></accept>
+	</alias>
+	<alias>
+		<family>標楷體</family>
+		<accept><family>AR PL UKai TW</family></accept>
+		<accept><family>AR PL ZenKai Uni</family></accept>
+	</alias>
+<!-- Alias for HKSCS -->
+	<alias>
+		<family>Ming (for ISO10646)</family>
+		<accept><family>AR PL UMing HK</family></accept>
+		<accept><family>AR PL ShanHeiSun Uni</family></accept>
+	</alias>
+</fontconfig>

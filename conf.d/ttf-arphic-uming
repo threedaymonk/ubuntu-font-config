@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+
+	<match target="font">
+		<test name="family">
+		<string>AR PL ShanHeiSun Uni</string>
+		<string>AR PL ShanHeiSun Uni MBE</string>
+		</test>
+		<edit name="globaladvance"><bool>false</bool></edit>
+		<edit name="spacing"><int>0</int></edit>
+       		<edit name="antialias"><bool>false</bool></edit>
+    		<edit name="hinting"><bool>true</bool></edit>
+         	<edit name="autohint"><bool>false</bool></edit>
+		<edit name="slant"><int>2</int></edit>
+		<edit name="weight"><int>1</int></edit>
+		<edit name="minspace"><bool>false</bool></edit>
+		<edit name="lang" mode="assign"><string>zh_CN</string></edit>
+		<edit name="lang" mode="assign"><string>zh_TW</string></edit>
+		<edit name="lang" mode="assign"><string>zh_SG</string></edit>
+		<edit name="lang" mode="assign"><string>zh_HK</string></edit>
+		<edit name="lang" mode="assign"><string>zh_MO</string></edit>
+		<edit name="lang" mode="assign"><string>nan</string></edit>
+		<edit name="lang" mode="assign"><string>hak</string></edit>
+		<edit name="embolden"><bool>false</bool></edit>
+		<edit name="verticallayout"><bool>false</bool></edit>
+	</match>
+
+	<match target="font">
+		<test name="family">
+		<string>AR PL ShanHeiSun Uni</string>
+		<string>AR PL ShanHeiSun Uni MBE</string>
+		</test>
+      		<test name="pixelsize" compare="more_eq"><int>17</int></test>
+          	<edit name="antialias" mode="assign"><bool>true</bool></edit>
+	      	<edit name="hinting" mode="assign"><bool>true</bool></edit>
+	</match>
+
+</fontconfig>
