@@ -3,6 +3,8 @@ Ubuntu Font Configuration
 
 Mac-like font rendering on Ubuntu, including decent results for Japanese, Arabic, etc.
 
+This has been tested to give good results on both 8.10 Intrepid and 9.04 Jaunty.
+
 * Get the following fonts:
   * [Droid](http://en.wikipedia.org/wiki/Droid_%28font%29)
     * `DroidSansFallback.ttf `
