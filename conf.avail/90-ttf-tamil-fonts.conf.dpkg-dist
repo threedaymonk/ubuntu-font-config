@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+	<!-- Tamil (ta) -->
+	<match target="pattern">
+		<test name="lang" compare="contains">
+			<string>ta</string>
+		</test>
+		<test qual="any" name="family">
+			<string>sans-serif</string>
+		</test>
+		<edit name="family" mode="append" binding="same">
+			<string>Lohit Tamil</string>
+		</edit>
+	</match>
+
+	<match target="pattern">
+		<test name="lang" compare="contains">
+			<string>ta</string>
+		</test>
+		<test qual="any" name="family">
+			<string>serif</string>
+		</test>
+		<edit name="family" mode="append" binding="same">
+			<string>Lohit Tamil</string>
+		</edit>
+	</match>
+
+    <!-- TAM* and TSC* fonts use a custom legacy encoding and should never be picked by fontconfig -->
+    <selectfont>
+        <rejectfont>
+            <pattern>
+            	<patelt name="family"><string>TAMu_Kadambri</string></patelt>
+            	<patelt name="family"><string>TAMu_Kalyani</string></patelt>
+            	<patelt name="family"><string>TAMu_Maduram</string></patelt>
+            	<patelt name="family"><string>TSCu_Comic</string></patelt>
+            	<patelt name="family"><string>TSCu_Paranar</string></patelt>
+            	<patelt name="family"><string>TSCu_Times</string></patelt>
+            </pattern>
+        </rejectfont>
+    </selectfont>
+    <!-- Tamil (ta) ends -->
+
+</fontconfig>
+
